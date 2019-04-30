@@ -34,7 +34,7 @@ public class GameControl : MonoBehaviour
     void Update()
     {
         //If the game is over and the player has pressed some input...
-        if (gameOver && Input.GetMouseButtonDown(0))
+        if (gameOver == true && Input.GetMouseButtonDown(0))
         {
             //...reload the current scene.
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -48,6 +48,8 @@ public class GameControl : MonoBehaviour
         {
             return;
         }
+        score = +1;
+        scoreText.text = "Score: " + score.ToString ();
     }
 
     public void BirdDied()
