@@ -48,7 +48,7 @@ public class GameControl : MonoBehaviour
         {
             return;
         }
-        score = +1;
+        score += 1;
         scoreText.text = "Score: " + score.ToString ();
     }
 

@@ -1,5 +1,57 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!61 &3003876035059426213
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034660714334768860}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 10.24}
+    newSize: {x: 2.56, y: 10.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.89, y: 10.24}
+  m_EdgeRadius: 0
+--- !u!61 &840280887177428855
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2519965632299169772}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 10.24}
+    newSize: {x: 2.56, y: 10.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.94, y: 10.24}
+  m_EdgeRadius: 0
 --- !u!1001 &1506149986521824080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,7 +62,22 @@ PrefabInstance:
     - target: {fileID: 4981133314681948955, guid: 901dd482635f9418588d54185861affb,
         type: 3}
       propertyPath: m_Name
-      value: Columns
+      value: Columns Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4981133314681948950, guid: 901dd482635f9418588d54185861affb,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4981133314681948950, guid: 901dd482635f9418588d54185861affb,
+        type: 3}
+      propertyPath: m_EdgeRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4981133314681948950, guid: 901dd482635f9418588d54185861affb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4981133314681948951, guid: 901dd482635f9418588d54185861affb,
         type: 3}
@@ -20,7 +87,7 @@ PrefabInstance:
     - target: {fileID: 4981133314681948951, guid: 901dd482635f9418588d54185861affb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -18.6
       objectReference: {fileID: 0}
     - target: {fileID: 4981133314681948951, guid: 901dd482635f9418588d54185861affb,
         type: 3}
@@ -67,20 +134,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4981133314681948950, guid: 901dd482635f9418588d54185861affb,
+    - target: {fileID: 4981133314024932048, guid: 901dd482635f9418588d54185861affb,
         type: 3}
-      propertyPath: m_Offset.x
-      value: 0.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 4981133314681948950, guid: 901dd482635f9418588d54185861affb,
-        type: 3}
-      propertyPath: m_EdgeRadius
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4981133314681948950, guid: 901dd482635f9418588d54185861affb,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
+      propertyPath: m_LocalPosition.y
+      value: -4.57
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 901dd482635f9418588d54185861affb, type: 3}
+--- !u!1 &6034660714334768860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5141281859622827404, guid: 901dd482635f9418588d54185861affb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1506149986521824080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2519965632299169772 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3899655529302445244, guid: 901dd482635f9418588d54185861affb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1506149986521824080}
+  m_PrefabAsset: {fileID: 0}

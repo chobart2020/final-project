@@ -8,6 +8,7 @@ public class Bird : MonoBehaviour
 
     private Animator anim;                  //Reference to the Animator component.
     private Rigidbody2D rb2d;               //Holds a reference to the Rigidbody2D component of the bird.
+    private BoxCollider2D boxCollider;
 
     void Start()
     {
@@ -15,6 +16,7 @@ public class Bird : MonoBehaviour
         anim = GetComponent<Animator>();
         //Get and store a reference to the Rigidbody2D attached to this GameObject.
         rb2d = GetComponent<Rigidbody2D>();
+
     }
 
     void Update()
@@ -38,6 +40,7 @@ public class Bird : MonoBehaviour
 
     void OnCollisionEnter2D()
     {
+        rb2d.velocity = Vector2.zero;
         isDead = true;
         anim.SetTrigger("Die");
         GameControl.instance.BirdDied();
