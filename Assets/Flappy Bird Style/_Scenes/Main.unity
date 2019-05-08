@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 178891050}
   - component: {fileID: 178891051}
   m_Layer: 0
-  m_Name: night-beach-mountain-01
+  m_Name: night
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 1191462995}
   - component: {fileID: 1191462996}
   m_Layer: 0
-  m_Name: night-beach-mountain-01
+  m_Name: night
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
