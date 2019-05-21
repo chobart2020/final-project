@@ -34,7 +34,12 @@ public class GameControl : MonoBehaviour
 			//...reload the current scene.
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
-	}
+        //If the game is over and the player has pressed some input...
+        if (gameOver && Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
+        }
+    }
 
 	public void BirdScored()
 	{
