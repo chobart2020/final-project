@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Flappy Bird Style/_Scenes/Menu.unity
+    guid: 4f8b438458fa30041865000691e86423
+  - enabled: 1
+    path: Assets/Flappy Bird Style/_Scenes/Main.unity
+    guid: ab8ef5f57c6f04e42880b8b05e8278f8
+  - enabled: 1
+    path: Assets/Flappy Bird Style/_Scenes/city.unity
+    guid: f316fbfc71942428c8947e06a63fc717
+  - enabled: 1
+    path: Assets/Flappy Bird Style/_Scenes/forrest.unity
+    guid: 4ead3b4fdd809444eb0f67a2f44b9936
+  - enabled: 1
+    path: Assets/Flappy Bird Style/_Scenes/cityscape.unity
+    guid: df33e29bc1e8444f9956ce967f54eb46
+  - enabled: 1
+    path: Assets/Flappy Bird Style/_Scenes/night.unity
+    guid: dcc58176feb7a4be09b1524d9194d168
   m_configObjects: {}
